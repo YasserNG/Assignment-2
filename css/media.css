@@ -1,0 +1,144 @@
+
+/* XS - Extra Small (Below 576px) */
+@media screen and (max-width: 575px) {
+    .xs-column { flex-direction: column !important; }
+    .xs-row { flex-direction: row !important; }
+
+    .xs-25 { width: 25% !important; }
+    .xs-33 { width: 33.333% !important; }
+    .xs-50 { width: 50% !important; }
+    .xs-75 { width: 75% !important; }
+    .xs-90 { width: 90% !important; }
+    .xs-100 { width: 100% !important; }
+
+    .xs-gap-0 { gap: 0 !important; }
+    .xs-gap-10 { gap: 10px !important; }
+    .xs-gap-20 { gap: 20px !important; }
+    .xs-gap-30 { gap: 30px !important; }
+    .xs-gap-40 { gap: 40px !important; }
+}
+
+/* SM - Small (576px and above) */
+@media screen and (min-width: 576px) {
+    .sm-column { flex-direction: column !important; }
+    .sm-row { flex-direction: row !important; }
+
+    .sm-25 { width: 25% !important; }
+    .sm-33 { width: 33.333% !important; }
+    .sm-45 { width: 45% !important; }
+    .sm-50 { width: 50% !important; }
+    .sm-75 { width: 75% !important; }
+    .sm-90 { width: 90% !important; }
+    .sm-100 { width: 100% !important; }
+
+    .sm-gap-0 { gap: 0 !important; }
+    .sm-gap-10 { gap: 10px !important; }
+    .sm-gap-20 { gap: 20px !important; }
+    .sm-gap-30 { gap: 30px !important; }
+    .sm-gap-40 { gap: 40px !important; }
+}
+
+/* MD - Medium (768px and above) */
+@media screen and (min-width: 768px){
+    .md-column { flex-direction: column !important; }
+    .md-row { flex-direction: row !important; }
+
+    .md-25 { width: 25% !important; }
+    .md-33 { width: 33.333% !important; }
+    .md-45 { width: 45% !important; }
+    .md-48 { width: 48% !important; }
+    .md-50 { width: 50% !important; }
+    .md-75 { width: 75% !important; }
+    .md-90 { width: 90% !important; }
+    .md-100 { width: 100% !important; }
+
+    .md-gap-0 { gap: 0 !important; }
+    .md-gap-10 { gap: 10px !important; }
+    .md-gap-20 { gap: 20px !important; }
+    .md-gap-30 { gap: 30px !important; }
+    .md-gap-40 { gap: 40px !important; }
+}
+
+/* LG - Large (992px and above) */
+@media screen and (min-width: 992px) {
+    .lg-column { flex-direction: column !important; }
+    .lg-row { flex-direction: row !important; }
+
+    .lg-20 { width: 20% !important; }
+    .lg-25 { width: 25% !important; }
+    .lg-30 { width: 30% !important; }
+    .lg-32 { width: 32% !important; }
+    .lg-33 { width: 33.333% !important; }
+    .lg-50 { width: 50% !important; }
+    .lg-60 { width: 60% !important; }
+    .lg-75 { width: 75% !important; }
+    .lg-90 { width: 90% !important; }
+    .lg-100 { width: 100% !important; }
+
+    .lg-gap-0 { gap: 0 !important; }
+    .lg-gap-10 { gap: 10px !important; }
+    .lg-gap-20 { gap: 20px !important; }
+    .lg-gap-30 { gap: 30px !important; }
+    .lg-gap-40 { gap: 40px !important; }
+}
+
+/* XL - Extra Large (1200px and above) */
+@media screen and (min-width: 1200px) {
+    .xl-column { flex-direction: column !important; }
+    .xl-row { flex-direction: row !important; }
+
+    .xl-20 { width: 20% !important; }
+    .xl-25 { width: 25% !important; }
+    .xl-33 { width: 33.333% !important; }
+    .xl-50 { width: 50% !important; }
+    .xl-75 { width: 75% !important; }
+    .xl-90 { width: 90% !important; }
+    .xl-100 { width: 100% !important; }
+
+    .xl-gap-0 { gap: 0 !important; }
+    .xl-gap-10 { gap: 10px !important; }
+    .xl-gap-20 { gap: 20px !important; }
+    .xl-gap-30 { gap: 30px !important; }
+    .xl-gap-40 { gap: 40px !important; }
+}
+
+/* XXL - Extra Extra Large (1400px and above) */
+@media screen and (min-width: 1400px) {
+    .xxl-column { flex-direction: column !important; }
+    .xxl-row { flex-direction: row !important; }
+
+    .xxl-20 { width: 20% !important; }
+    .xxl-25 { width: 25% !important; }
+    .xxl-33 { width: 33.333% !important; }
+    .xxl-50 { width: 50% !important; }
+    .xxl-75 { width: 75% !important; }
+    .xxl-90 { width: 90% !important; }
+    .xxl-100 { width: 100% !important; }
+
+    .xxl-gap-0 { gap: 0 !important; }
+    .xxl-gap-10 { gap: 10px !important; }
+    .xxl-gap-20 { gap: 20px !important; }
+    .xxl-gap-30 { gap: 30px !important; }
+    .xxl-gap-40 { gap: 40px !important; }
+}
+
+/* Hide navigation below 992px */
+@media screen and (max-width: 1200px) {
+    .hide-nav { display: none !important; }
+}
+
+@media screen and (max-width: 991px) {
+    .reviews .card {
+        position: static;
+    }
+}
+@media screen and (max-width: 767px) {
+    .specs .specs-content {
+        padding-inline: 0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .specs .specs-content {
+        padding-inline: 20px;
+    }
+}
